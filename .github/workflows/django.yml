@@ -36,7 +36,7 @@ jobs:
       with:
         host: 54.176.60.26
         username: ec2-user
-        key: barber_staging2.pem
+        key: barber_staging2
         script: |
           cd /home/ec2-user/myproject
           git pull origin main
